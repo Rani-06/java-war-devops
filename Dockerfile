@@ -6,4 +6,4 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 # copy war file
 COPY target/*.war /usr/local/tomcat/webapps/ROOT.war
 
-EXPOSE 8080
+EXPOSE 80
