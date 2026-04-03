@@ -1,13 +1,29 @@
-<build>
-    <finalName>java-war-app</finalName>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <plugins>
-        <plugin>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.4.0</version>
-            <configuration>
-                <failOnMissingWebXml>false</failOnMissingWebXml>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.devops</groupId>
+    <artifactId>java-war-app</artifactId>
+    <version>1.0</version>
+    <packaging>war</packaging>
+
+    <name>Java War DevOps App</name>
+
+    <build>
+        <finalName>java-war-app</finalName>
+
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.4.0</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
