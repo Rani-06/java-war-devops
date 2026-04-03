@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: java-war-app
-        image: ranigali/java-war-app:v9
+        image: ranigali/java-war-app:v18
         ports:
         - containerPort: 8080
       imagePullSecrets:
