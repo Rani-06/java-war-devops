@@ -13,7 +13,9 @@ spec:
         app: java-war-app
     spec:
       containers:
-      - name: java-container
-        image: ranigali/java-war-app:v1
+      - name: java-war-app
+        image: ranigali/java-war-app:v9
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: regcred
